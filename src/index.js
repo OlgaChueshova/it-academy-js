@@ -127,19 +127,123 @@
 
 // console.log(sum2);
 
-let a=1;
+// let a=1;
 
-let b=2;
+// let b=2;
 
-const min = (a, b) => {
-    if (a<b) {
-        return a
-    }
-    else {
-        return b
-    }
-}
+// const min = (a, b) => {
+//     if (a<b) {
+//         return a
+//     }
+//     else {
+//         return b
+//     }
+// }
 
-console.log(min);
+// console.log(min);
 
 
+
+// function sumTu (n) {
+//     if (n === 1) return n;
+
+//     return n + sumTu(n-1); 
+// }
+
+// sumTu(10);
+
+
+
+// let a = 2;
+// let b = 3;
+
+// function sum () {
+//     if (n===a) return a;
+//     return a+sum(b);  
+//     if (n===b) return b;
+//     return b+sum(a);
+// }
+// sum(a);
+
+
+
+// const list = {
+//     a: 'a1',
+//     b: 'b1',
+//     next: {
+//         a: 'a1',
+//         b: 'b1',
+//         next: {
+//             a: 'a1',
+//             b: 'b1',
+//             next: {
+                
+//             }
+//     }
+//     }
+// }
+
+// function showA (list) {
+//     for(let elem in list) {
+//         if (a) console.log(list.a);
+//         showA (list.next)
+
+//     }
+// }
+
+// showA();
+
+
+// function showA (list) {
+//     if(list) console.log(list.a) 
+    
+
+// }
+
+
+
+// let str = "aaa bbb ccc";
+
+
+
+// str = str.substr(4, 3);
+
+// console.log(str);
+
+
+//lesson 5
+
+
+
+
+let array = [2, 3, 4, undefined, null, '', false, 5, 6];
+
+array.reverse();
+console.log(array);
+
+
+
+
+
+
+// function filter (array, collback) {
+//     const temArr = []
+//     for (let i = 0; i <array.length; i++) {
+//         const res = collback(array[i],  i, array);
+//         if(res) {
+//             temArr.push(array[i])
+//         }
+//     }
+
+//     return temArr;
+// }
+
+// const compact = (arr) => {
+//     const callback = (item) => {
+//         return Boolean(item)
+//     }
+
+//     arr.filter(callback)
+// }
+
+// compact(array)
