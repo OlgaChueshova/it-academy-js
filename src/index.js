@@ -38,7 +38,7 @@
 //         i="#";
 //         console.log(i);
 //     }
-  
+
 // } while (i.length<7);
 
 
@@ -177,7 +177,7 @@
 //             a: 'a1',
 //             b: 'b1',
 //             next: {
-                
+
 //             }
 //     }
 //     }
@@ -196,7 +196,7 @@
 
 // function showA (list) {
 //     if(list) console.log(list.a) 
-    
+
 
 // }
 
@@ -247,3 +247,31 @@ console.log(array);
 // }
 
 // compact(array)
+
+
+
+// lesson 6
+
+
+
+arr = ['bread', 'sausage', , 'jbhv', 'cheese', 'jbhhv', 'jghf'];
+
+arr2 = ['bread', 'sausage', "cheese"];
+
+const nhjgg = arr
+    .filter((item) => arr2.includes(item))
+    .map((item) => item + " ")
+    .reduce((sandwich, item) => {
+        if ('bread') {
+            return sandwich += item;
+        }
+        if ('sausage') {
+            return sandwich += item;
+        }
+        if ('cheese') {
+            return sandwich += item;
+        }
+    }, " ");
+
+    console.log(nhjgg);
+
